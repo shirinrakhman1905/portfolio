@@ -1,0 +1,66 @@
+@import url(./fonts.scss);
+@import url(./header.scss);
+@import url(./page.scss);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #fff;
+    background-color: #11071F;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.en {
+    font-family: 'Plus Jakarta Sans';
+}
+
+body.ru {
+    font-family: "Nata Sans", sans-serif;
+}
+
+
+body.active {
+    background-color: #fdfdfd;
+    color: #000;
+}
+
+.container {
+    max-width: 1152px;
+    width: 100%;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 0 12px;
+    }
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    border: none;
+    outline: none;
+    color: inherit;
+    background: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}

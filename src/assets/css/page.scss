@@ -1,0 +1,304 @@
+.section {
+
+    &__one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__one-title h1 {
+        font-family: "Tiny5";
+        font-size: 100px;
+        line-height: 127%;
+        letter-spacing: 0.02em;
+    }
+
+    &__one-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+
+    &__one-name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-weight: 800;
+        font-size: 110px;
+        letter-spacing: 0.02em;
+        background: linear-gradient(270deg, #8a2be2, #ffffff, #8a2be2);
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        animation: gradientMove 5s ease infinite;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+
+    @keyframes gradientMove {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    &__one-subtitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        font-size: 50px;
+        letter-spacing: 0.02em;
+
+    }
+
+    &__one-text {
+        font-size: 22px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+
+      
+
+    // &__one-image {
+    //     object-fit: contain;
+    //     width: 200px;
+    //     height: 300px;
+    // }
+
+    &__two-content {
+        padding: 150px 100px;
+        text-align: left;
+    }
+
+    &__two-title {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    &__two-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    &__two-card {
+        background: linear-gradient(135deg, #1c0b2e, #2d1150);
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 0px 0px 30px rgba(128, 0, 255, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    &__two-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0px 0px 40px rgba(170, 0, 255, 0.6);
+    }
+
+    &__two-card img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    &__two-card-content h3 {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    &__two-card-content p {
+        margin: 10px 0 20px;
+        font-size: 18px;
+    }
+
+    &__two-btn {
+        display: inline-block;
+        padding: 8px 18px;
+        border: 1px solid #9b5cf4;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    &__two-btn:hover {
+        background: #9b5cf4;
+        color: #11071F;
+    }
+
+    &__three {
+        background: #11071F;
+        margin: 0 auto;
+    }
+
+    &__three-content {
+        display: flex;
+        flex-direction: column;
+        gap: 128px;
+        padding: 0 150px 100px 100px;
+    }
+
+    &__three-block {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+    }
+
+    &__three-block.reverse {
+        flex-direction: row;
+    }
+
+    &__three-text {
+        flex: 1;
+    }
+
+    &__three-maintitle {
+        font-size: 36px;
+    }
+
+    &__three-title {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    &__three-subtitle {
+        font-size: 14px;
+        color: #A78BFA;
+        margin-bottom: 15px;
+    }
+
+    &__three-description {
+        line-height: 1.6;
+        font-size: 18px;
+        background: linear-gradient(135deg, #1c0b2e, #2d1150);
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 0px 0px 30px rgba(128, 0, 255, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    &__three-description:hover {
+        transform: translateY(-8px);
+        box-shadow: 0px 0px 40px rgba(170, 0, 255, 0.6);
+    }
+
+
+    &__three-image {
+        flex: 1;
+    }
+
+    &__three-image img {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    }
+
+
+    &__four-content {
+        border-top: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        padding: 100px 100px;
+    }
+
+    &__four-title {
+        font-size: 36px;
+        font-weight: 600;
+
+    }
+
+    &__four-text {
+        line-height: 1.6;
+        font-size: 18px;
+    }
+
+    &__four-email {
+        font-weight: 600;
+    }
+
+    &__four-socials {
+        display: flex;
+        justify-content: flex-end;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .section__one-title h1 {
+      font-size: 40px;
+      line-height: 120%;
+    }
+  
+    .section__one-title {
+      margin-top: 40px;
+    }
+  
+    .section__one-name {
+      font-size: 48px;
+      white-space: normal; 
+      text-align: center;
+    }
+  
+    .section__one-subtitle {
+      font-size: 24px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .section__one-text {
+      font-size: 16px;
+      margin-top: 20px;
+      padding: 0 10px; /* немного воздуха по краям */
+    }
+  }
+
+body.active .section__three {
+    background-color: #fff;
+    color: #000;
+}
+
+body.active .section__two-card {
+    color: #000;
+    background: #d2b0ff;
+}
+
+body.active .section__two-btn {
+    color: #000;
+}
+
+body.active .section__three-description {
+    color: #000;
+    background: #d2b0ff;
+}
+
+.lang {
+    cursor: pointer;
+}
