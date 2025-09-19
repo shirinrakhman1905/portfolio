@@ -278,7 +278,49 @@
       margin-top: 20px;
       padding: 0 10px; /* немного воздуха по краям */
     }
+ 
+    .section__two-content {
+      padding: 60px 20px;       /* уменьшаем паддинги */
+      text-align: center;       /* центрируем текст */
+    }
+  
+    .section__two-title {
+      font-size: 24px;          /* меньше шрифт */
+      margin-bottom: 20px;
+    }
+  
+    .section__two-cards {
+      grid-template-columns: 1fr;  /* одна колонка вместо двух */
+      gap: 20px;
+    }
+  
+    .section__two-card {
+      flex-direction: column;   /* иконка над текстом */
+      text-align: center;       /* текст по центру */
+      padding: 20px;
+      gap: 15px;
+    }
+  
+    .section__two-card img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .section__two-card-content h3 {
+      font-size: 18px;
+    }
+  
+    .section__two-card-content p {
+      font-size: 16px;
+      margin: 8px 0 15px;
+    }
+  
+    .section__two-btn {
+      font-size: 13px;
+      padding: 6px 14px;
+    }
   }
+  
 
 body.active .section__three {
     background-color: #fff;
