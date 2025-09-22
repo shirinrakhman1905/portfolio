@@ -107,13 +107,13 @@ const Page = () => {
             {words.contacts.text[lang]}
             </div>
               <div className="section__four-email">
-                sdshirin2016@gmail.com, +998991234567
+                sdshirin2016@gmail.com, tg: @rakhmanovash
             </div>
             <div className="section__four-socials">
-              <a href=""><img src={linkedin} alt="" /></a>
-              <a href=""><img src={github} alt="" /></a>
-              <a href=""><img src={instagram} alt="" /></a>
-              <a href=""><img src={telegram} alt="" /></a>
+              <a href=""><img src={linkedin} alt="linkedin" /></a>
+              <a href="https://github.com/shirinrakhman1905"><img src={github} alt="github" /></a>
+              <a href=""><img src={instagram} alt="instagram" /></a>
+              <a href=""><img src={telegram} alt="telegram" /></a>
             </div>
         </section>
       </div>
