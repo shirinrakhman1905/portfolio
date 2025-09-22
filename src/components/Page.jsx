@@ -78,13 +78,14 @@ const Page = () => {
                 </div>
               </div>
               <div className="section__three-image">
-                <img src={weather} alt="" />
+                <a href="https://github.com/shirinrakhman1905/weather.app">
+                <img src={weather} alt="" /></a>
               </div>
             </div>
 
             <div className="section__three-block reverse">
               <div className="section__three-image">
-                <img src={todo} alt="" />
+                <a href="https://github.com/shirinrakhman1905/todo-list"><img src={todo} alt="" /></a>
               </div>
               <div className="section__three-text">
                 <h3 className="section__three-subtitle">{words.projects.featured[lang]}</h3>
