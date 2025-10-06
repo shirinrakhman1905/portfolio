@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { reactpic, api, javascript, css, weather, todo, linkedin, github, instagram, telegram } from "../assets/images";
+import { reactpic, api, javascript, css, weather, todo, linkedin, github, instagram, telegram, diploma, webster } from "../assets/images";
 import { LangContext } from "../context/LangContext";
 
 
@@ -20,6 +20,12 @@ const Page = () => {
           <h2 className="section__one-name">{words.about.name[lang]}</h2>
           <h3 className="section__one-subtitle">{words.about.subtitle[lang]}</h3>
           <p className="section__one-text">{words.about.desc[lang]}</p>
+          <h3 className="section__one-education">{words.about.edu[lang]}</h3>
+          <p className="section__one-paragraph">{words.about.education[lang]}</p>
+          <div className="section__one-images">
+          <img src={diploma} alt="Diploma"  />
+          <img src={webster} alt="Webster Diploma" />
+          </div>
         </div>
       </div>
 
@@ -54,7 +60,7 @@ const Page = () => {
               <div className="section__two-card">
                 <img src={api} className='api' alt="" />
                 <div className="section__two-card-content">
-                  <h3>Axios/fetch, JSON </h3>
+                  <h3>Pixel-perfect </h3>
                   <p>{words.skills.api[lang]}</p>
                   <a href="#" className="section__two-btn">{words.learn[lang]}</a>
                 </div>

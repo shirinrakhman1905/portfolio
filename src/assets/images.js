@@ -11,6 +11,8 @@ import instagram from './img/instagram.svg'
 import telegram from './img/telegram.svg'
 import themeIcon from './img/theme.svg'
 import darkthemeIcon from './img/darktheme.svg'
+import diploma from './img/diploma.png'
+import webster from './img/webster.JPG'
 
 export {
   picture,
@@ -25,5 +27,7 @@ export {
   instagram,
   telegram,
   themeIcon,
-  darkthemeIcon
+  darkthemeIcon,
+  diploma,
+  webster
 };

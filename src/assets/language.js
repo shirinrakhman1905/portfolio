@@ -12,6 +12,11 @@ const lang = {
     desc: {
       ru: "Увлекаюсь созданием красивых, адаптивных веб-приложений с использованием современных технологий, таких как React, JavaScript и CSS.",
       en: "Passionate about creating beautiful, responsive web applications with modern technologies like React, JavaScript, and CSS"
+    },
+    edu: {ru: 'Образование', en: 'Education'},
+    education: {
+      ru: "Я прошла оффлайн курсы Front-end разработчика в учебном центре PROWEB в Ташкенте, обучаясь у Senior программистов основам и современному стэку профессии. Так же у меня степень бакалавра в сфере Management -IT в Webster University in Tashkent",
+      en: "I completed offline front-end developer courses at the PROWEB training center in Tashkent, learning the fundamentals and modern stack of the profession from senior programmers. I also hold a bachelor's degree in Management and IT from Webster University in Tashkent."
     }
   },
 
@@ -20,7 +25,7 @@ const lang = {
     css: { ru: "Семантика, flexbox, grid, анимации, адаптивная и кроссбраузерная вёрстка.", en: "Semantics, flexbox, grid, animations, responsive and cross-browser layout." },
     js: { ru: "Владею необходимыми навыками для создания красивого и удобного интерфейса с интерактивом для пользователя.", en: "I possess the necessary skills to create beautiful and user-friendly interfaces with interactivity for the user." },
     react: { ru: "Все базовые фреймворки — строю архитектуру, работаю с API, состоянием, маршрутизацией, хуками.", en: "All basic frameworks — I design architecture, work with APIs, state management, routing, and hooks." },
-    api: { ru: "Работаю с данными и запросами на сервер.", en: "Working with data and server requests." },
+    api: { ru: "Верстка в стиле pixel-perfect - все точно до пикселя по дизайну Figma", en: "Pixel-Perfect layout – every pixel is accurate according to Figma design" },
   },
 
   projects: {
